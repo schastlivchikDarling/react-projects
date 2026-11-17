@@ -1,0 +1,183 @@
+/* Основной контейнер */
+
+.app {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: #f4f6f8;
+  }
+
+
+/* Шапка */
+
+.header {
+  background-color: #1e3a5f;
+
+  color: white;
+
+  padding: 30px;
+
+  text-align: center;
+  }
+
+.header h1 {
+  margin: 0;
+
+  font-size: 36px;
+  }
+
+.header p {
+  margin-top: 10px;
+
+  font-size: 18px;
+  }
+
+
+/* Основная часть */
+
+.main {
+  width: 100%;
+
+  max-width: 900px;
+
+  margin: 0 auto;
+
+  padding: 30px 20px;
+
+  flex: 1;
+  }
+
+.main h2 {
+  text-align: center;
+
+  margin-bottom: 15px;
+  }
+
+
+/* Статистика */
+
+.students-count {
+  text-align: center;
+
+  font-size: 18px;
+
+  margin-bottom: 30px;
+  }
+
+
+/* Контейнер карточек */
+
+.students-container {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 20px;
+  }
+
+
+/* Карточка студента */
+
+.student-card {
+  background-color: white;
+
+  border-radius: 10px;
+
+  padding: 20px;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+
+/* Верхняя часть карточки */
+
+.student-card-header {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  gap: 15px;
+  }
+
+.student-card h3 {
+  margin-top: 0;
+
+  color: #1e3a5f;
+  }
+
+.student-card p {
+  margin: 8px 0;
+  }
+
+
+/* Общий стиль статуса */
+
+.status-badge {
+  padding: 6px 12px;
+
+  border-radius: 20px;
+
+  font-size: 14px;
+
+  font-weight: bold;
+  }
+
+
+/* Активный статус */
+
+.status-active {
+  background-color: #d4edda;
+
+  color: #155724;
+  }
+
+
+/* Неактивный статус */
+
+.status-inactive {
+  background-color: #e2e3e5;
+
+  color: #383d41;
+  }
+
+
+/* Предупреждение */
+
+.student-warning {
+  color: #b45309;
+
+  font-weight: bold;
+  }
+
+
+/* Пустой список */
+
+.empty-message {
+  text-align: center;
+
+  padding: 30px;
+
+  background-color: white;
+
+  border-radius: 10px;
+  }
+
+
+/* Подвал */
+
+.footer {
+  background-color: #1e3a5f;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 15px;
+  }
+
+.student-card-header { flex-wrap: wrap; }
+.card { margin: 16px 0; padding: 20px; border: 1px solid #cbd5e1; border-radius: 10px; background-color: white; }
